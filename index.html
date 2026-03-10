@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=1.0">
+    <title>Docs - The Journal of a Physicist</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    
+    
+    
+    <header class="site-header">
+        <div class="header-container">
+            <div class="header-left">
+                <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle Sidebar">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                        <line x1="9" x2="9" y1="3" y2="21"></line>
+                    </svg>
+                </button>
+                <div class="breadcrumbs-header">
+                    <a href="#" class="breadcrumb-link active">Introduction to Special Relativity</a>
+                    <svg class="separator" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                    <span id="breadcrumb-current" class="breadcrumb-link active">Current Page</span>
+                </div>
+            </div>
+            <nav class="top-nav">
+                <a href="#">Home</a>
+                <a href="#">Components</a>
+                <a href="#">GitHub</a>
+            </nav>
+        </div>
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script>
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="main-layout">
+        <aside class="left-sidebar" id="left-sidebar">
+            <div class="sidebar-content">
+
+                <!-- Search Button -->
+                <button class="search-trigger" id="search-trigger">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" x2="16.65" y1="21" y2="16.65"></line>
+                    </svg>
+                    <span>Search docs...</span>
+                </button>
+
+                <div class="sidebar-group">
+                    <h3>Início</h3>
+                    <ul>
+                        <li><a href="index.html" class="active">Overview</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-group">
+                    <h3>Capítulo 1</h3>
+                    <ul>
+                        <li><a href="pages/1-Galilean Relativity.html">Galilean Relativity</a></li>
+                        <li><a href="pages/1-Spacetime Algebra.html">Spacetime Algebra</a></li>
+                        <!--<li><a href="pages/item-1-3.html">Item 1.3</a></li> -->
+                    </ul>
+                </div>
+                <!--<div class="sidebar-group">
+                    <h3>Capítulo 2</h3>
+                    <ul>
+                        <li><a href="pages/item-2-1.html">Item 2.1</a></li>
+                        <li><a href="pages/item-2-2.html">Item 2.2</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-group">
+                    <h3>Capítulo 3</h3>
+                    <ul>
+                        <li><a href="pages/item-3-1.html">Item 3.1</a></li>
+                        <li><a href="pages/item-3-2.html">Item 3.2</a></li>
+                        <li><a href="pages/item-3-3.html">Item 3.3</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </aside>
+
+
+
+
+
+
+
+
+
+
+        <main class="content-area">
+            <div class="prose">
+
+                <h1>Introduction to Special Relativity</h1>
+                <p class="lead"> Este documento, intitulado <strong>Introduction to Special Relativity</strong>, reúne as anotações das aulas de <strong>Relatividade Restrita</strong> do curso de Física da Universidade Estadual de Londrina (UEL), ministradas pelo professor Sandro Dias Pinto Vitenti no ano de 2026. O conteúdo foi organizado de forma detalhada e metódica, servindo como material de apoio para o estudo aprofundado e fonte de referência.
+                </p>
+
+                <div class="image-card">
+                    <img src="https://www.quantamagazine.org/wp-content/uploads/2026/02/TheEvolvingFoundationsOfMath-crKristinaArmitage-Lede-Hub-2048x950.jpg" alt="Diagrama do Espaço-Tempo de Minkowski">
+                </div>
+
+
+
+                <h2 id="resumo">Resumo</h2>
+                <p>Este curso propõe uma reconstrução do "palco" fundamental da física, transcendendo a visão clássica de espaço e tempo como entidades isoladas para tratá-los como uma estrutura geométrica unificada. Partindo da transição entre a relatividade galileana e os postulados de Einstein, a disciplina foca rigorosamente na fundamentação do espaço-tempo de Minkowski, utilizando a sofisticada linguagem de tensores e quadrivetores para descrever a realidade de forma covariante e independente do observador. Ao explorar como a dinâmica relativística e a eletrodinâmica de Maxwell emergem naturalmente das propriedades dessa malha quadridimensional, o curso demonstra que as leis da natureza não são apenas eventos ocorrendo "dentro" de um espaço passivo, mas sim manifestações intrínsecas da própria geometria desse "background".</p>
+                
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                    <h3>O Palco Geométrico</h3>
+                        <p>Compreensão profunda do espaço-tempo de Minkowski, abandonando a visão newtoniana para tratar o espaço e o tempo como uma malha quadridimensional unificada.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Linguagem Tensorial</h3>
+                        <p>Domínio do cálculo com quadrivetores, tensores, grandezas covariantes e contravariantes, utilizando o tensor métrico para garantir que as leis da física não dependam do observador.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Eletrodinâmica Covariante</h3>
+                        <p>Reestruturação das equações de Maxwell e da dinâmica relativística sobre o novo espaço-tempo, entendendo campos e energias como propriedades inerentes à geometria.</p>
+                    </div>
+                </div>
+
+                
+                
+                
+                
+                <h2 id="toc">Índice Completo (Table of Contents)</h2>
+                <ul>
+                    <li><strong>Capítulo 1: Introduction</strong>
+                        <ul>
+                            <li><a href="pages/1-Galilean Relativity.html">Galilean Relativity</a></li>
+                            <li><a href="pages/item-1-2.html">Spacetime Algebra</a></li>
+                        </ul>
+                    </li>
+                    <!--<li><strong>Capítulo 2: Special Relativity</strong>
+                        <ul>
+                            <li><a href="pages/item-2-1.html">Item 2.1</a></li>
+                            <li><a href="pages/item-2-2.html">Item 2.2</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="toc-container">
+                <h4>Nesta página</h4>
+                <ul>
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#toc">Índice Completo</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Search Modal Overlay -->
+    <div class="search-overlay" id="search-overlay">
+        <div class="search-modal">
+            <div class="search-header">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" x2="16.65" y1="21" y2="16.65"></line>
+                </svg>
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+            </div>
+            <div class="search-results" id="search-results">
+                <!-- Results biuld dynamically from sidebar-group items -->
+            </div>
+            <div class="search-footer">
+                <div class="search-commands">
+                    <span class="cmd-key">↑</span>
+                    <span class="cmd-key">↓</span>
+                    <span class="cmd-label">navigate</span>
+                    <span class="cmd-key">↵</span>
+                    <span class="cmd-label">select</span>
+                </div>
+                <div class="search-commands">
+                    <span class="cmd-key">esc</span>
+                    <span class="cmd-label">close</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
